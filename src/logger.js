@@ -28,7 +28,7 @@ export default new class VueSocketIOLogger {
 
     event(text, data = ''){
 
-        if(this.debug) window.console.info(this.prefix+`%c${text}`, 'color: blue; font-weight: 600', 'color: #333333', data);
+        if(this.debug) window.console.info(this.prefix+`%c${text}`, 'color: skyblue; font-weight: 600', 'color: #333333', data);
 
     }
 
